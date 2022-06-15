@@ -21,7 +21,7 @@ public class DataGenerator {
         }
 
         public static User generateUser() {
-            return new User(generateCity(), generateDate(3), generateName(), generatePhone());
+            return new User(generateCity(), generateName(), generatePhone());
         }
 
         public static String generateCity() {
